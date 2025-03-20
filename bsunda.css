@@ -5,22 +5,23 @@ html{
 html {
     scroll-behavior: smooth;
 }
+
 body{
-    background-color: #A35709;
+    background-color: #626F47;
     font-family: quicksand;
 }
 
 
 header {
-    background-color: #FF8303;
-    padding: 10px 20px;
-    
+    background-color: #A4B465;
+    padding: 25px;
+    width: 1500px;
+    justify-content: space-between;
 }
 
 nav{
     justify-content: space-between;
     display: flex;
-    border-radius: 10%;
 }
 
 nav ul {
@@ -30,72 +31,27 @@ nav ul {
     display: flex;
 }
 
-.nama{
- padding-top: 11.5px;
-}
-
-nav ul.nama {
-    color: #522a03;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-nav ul.if {
-    display: flex;
-}
-
-nav ul.if li {
-    padding: 10px;
-}
 
 nav a {
-    color: #522a03;
+    color: #626F47;
     text-decoration: none;
 }
 
-nav ul.if li ul {
-    display: none;
-    position: absolute;
-    background-color: #FF8303;
-    list-style-type: none;
-    margin-top: 15px;
-    margin-right: 20px;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px  #522a03;
+nav ul .button a {
+    background-color: #626F47;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
-nav ul.if li:hover ul {
-    display: block;
-    margin-right: 90px;
-
-}
-
-nav ul.if li ul li {
-    padding: 10px;
-    width: 100px;
-}
-
-nav ul.if li ul li a {
-    color: #522a03;
-    padding: 8px;
-    display: block;
-}
-
-nav ul.if li ul li a:hover {
-    background-color:rgba(0, 0, 0, 0);
-}
-
-
-nav ul.if li:hover {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.box {
-    background-color: #FF8303;
+.section {
+    background-color: #A4B465;
     border-radius: 10px;
-    box-shadow: 0 4px 10px #522a03;
-    width: calc(100% - 90px);
+    box-shadow: 0 4px 10px #626F47;
+    width:1200px;
     text-align: left;
     padding: 45px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -105,5 +61,6 @@ nav ul.if li:hover {
 img{
     height: 200px;
     width: 200px;
+    border-radius: 10px;
 }
 
